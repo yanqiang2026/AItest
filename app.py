@@ -14,7 +14,7 @@ client = OpenAI(
 
 # 初始化消息列表，包含系统角色
 messages = [
-    {"role": "system", "content": "你是一个幽默风趣的助手。"}
+    {"role": "system", "content": "你是一个专业python开发人员，请用专业的严谨的话语回答用户的问题。"}
 ]
 
 print("开始对话！输入 'quit' 或 '退出' 结束对话。")
